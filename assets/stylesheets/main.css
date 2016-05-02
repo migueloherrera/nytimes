@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GRID */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* CLEARFIX*/
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  clear: both;
+  *zoom: 1;
+}
+
+/* STARTS HERE */
+
+#container {
+  margin-left: 25px;
+  font-family: georgia, "times new roman", times, serif;
+  border-left: 3px solid #F8F8F8;
+}
+
+/* TOP BAR */
+
+.top-center {
+  margin: 0 auto;
+  width: 20%;
+}
+
+.top-center img {
+  margin-top: 15px;
+}
+
+.top-left {
+  width: 30%;
+  float: left;
+  font-style: bold;
+  font-size: .8em;
+  margin: 10px 0 0 -10px;
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  color: #3B3333;
+  float: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+
+img,
+p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.box img {
+  left: 5px;
+}
+
+.box p {
+  left: 30px;
+  top: 8px;
+}
+
+.box:first-child {
+  border: 1px solid #CECECE;
+  border-radius: 3px;
+}
+
+.top-right {
+  float: right;
+  width: 30%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.top-right .settings {
+  position: absolute;
+  right: 60px;
+  top: 10px;
+}
+
+.btn {
+  background-color: #6288A5;
+  color: #F9FFF4;
+  padding: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .7em;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #4D7B9F;
+}
+
+.btn-login {
+  position: absolute;
+  top: 10px;
+  right: 75px;
+}
+
+.btn-subscribe {
+  position: absolute;
+  top: 10px;
+  right: 140px;
+}
+
+.top-right p {
+  position: absolute;
+  font-size: .8em;
+  top: 20px;
+  right: 265px;
+  color: #7A7C81;;
+}
+
+/*  LINK NEWS WITH THUMBNAILS */
+
+#news {
+  width: 100%;
+  margin-top: 10px;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+.headnews {
+  width: 19%;
+  height: 78px;
+  margin: 5px 0;
+  border-right: 1px solid #CCC;
+  float: left;
+  position: relative;
+}
+
+.headnews p {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  font-family: serif;
+  font-stretch: condensed;
+  font-size: 1.5em;
+  letter-spacing: -1px;
+}
+
+.headnews .news-image {
+  position: absolute;
+  left: 30px;
+  top: 5px;
+}
+
+.headnews a {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  right: 5px;
+  text-decoration: none;
+  font-size: .9em;
+  line-height: 1.2;
+  color: #433333;
+}
+
+.headnews a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+.main {
+  margin: 100px 80px 20px 60px;
+}
+
+/* CATEGORY */
+.category {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.85em;
+  font-weight: bold;
+  letter-spacing: 0.65px;
+  border-top: 1px solid black;
+  padding: 7px 0;
+}
