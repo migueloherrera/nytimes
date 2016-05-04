@@ -276,7 +276,6 @@ p {
   left: 875px;
 }
 
-
 .main-picture {
   height: 660px;
   padding-top: 20px;
@@ -452,4 +451,25 @@ article .subtitle {
 .video-caption span {
   font-size: 0.95em;
   color: #999999;
+}
+
+.second-picture {
+  height: 455px;
+  padding-top: 20px;
+}
+
+/* END OF ARTICLE */
+
+.separator {
+  width: 60px;
+  padding-top: 30px;
+  border-bottom: 1px solid black;
+}
+
+.on-paper {
+  font-family: arial, sans-serif;
+  color: #B29EA7;
+  font-size: 0.65em;
+  line-height: 1.5;
+  padding: 20px 0;
 }
