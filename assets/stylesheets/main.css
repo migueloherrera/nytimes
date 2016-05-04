@@ -307,3 +307,149 @@ article .text {
   line-height: 1.5;
   padding-top: 20px;
 }
+
+article .subtitle {
+  font-weight: bold;
+}
+
+/* COMMENTS */
+
+.comments {
+  font-family: arial, sans-serif; 
+  border-top: 1px solid #CCC;
+  width: 360px;
+  position: absolute;
+  top: 1950px;
+  right: 80px;
+  font-size: 0.75em;
+}
+
+.title-comments {
+  color: #326891;
+  font-weight: bold;
+  padding: 10px 5px 15px 30px;
+}
+
+.user {
+  clear: both;
+  float: left;
+  font-weight: bold;
+}
+
+.date {
+  float: left;
+  padding-left: 10px;
+  font-weight: lighter;
+  color: #B2B3C0;
+}
+
+.comment {
+  clear: both;
+  width: 98%;
+  padding: 8px 0 12px 0;
+  font-weight: lighter;
+  line-height: 1.5;
+  color: #858482;
+}
+
+.all-comments {
+  border-top: 1px solid #CCC;
+  color: #4FA3E6;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 0.85em;
+  font-stretch: condensed;
+}
+
+/* STORY INTERRUPTER */
+
+.story {
+  width: 945px;
+  height: 745px;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+}
+
+.story .title {
+  font-family: georgia;
+  padding: 15px 0 10px 0;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #333333;
+}
+
+.story .top {
+  color: #666666;
+  line-height: 1.1;
+  font-size: 0.95em;
+}
+
+.story .img {
+  padding-top: 10px;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+  font-family: arial;
+  font-size: 0.8em;
+  font-weight: lighter;
+  line-height: 1.5;
+  word-spacing: 1px;
+  position: absolute;
+  width: 228px;
+}
+
+.story strong {
+  font-weight: bold;
+  font-stretch: condensed;
+  font-size: 0.9em;
+}
+
+.text1, .text2, .text3, .text4 {
+  top: 230px;
+}
+
+.text5, .text6, .text7, .text8 {
+  top: 520px;
+}
+
+.text1, .text5 {
+  left: 2px;
+}
+
+.text2, .text6 {
+  left: 240px;
+}
+
+.text3, .text7 {
+  left: 480px;
+}
+
+.text4, .text8 {
+  left: 730px;
+}
+
+.credit {
+  position: absolute;
+  font-family: arial;
+  font-size: 0.7em;
+  font-weight: lighter;
+  bottom: 15px;
+  color: #999999;
+}
+
+/* VIDEO */
+
+.video {
+  padding: 30px 0 10px 0;
+}
+
+.video-caption {
+  font-size: 0.85em;
+  color: #666666;
+}
+
+.video-caption span {
+  font-size: 0.95em;
+  color: #999999;
+}
