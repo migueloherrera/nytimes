@@ -172,7 +172,7 @@ p {
   position: absolute;
   font-size: .8em;
   top: 20px;
-  right: 265px;
+  right: 255px;
   color: #7A7C81;;
 }
 
@@ -472,4 +472,104 @@ article .subtitle {
   font-size: 0.65em;
   line-height: 1.5;
   padding: 20px 0;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 10px 20px 0 90px;
+  width: 1050px;
+  border-top: 5px double #E2E2E2;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-top {
+  padding: 10px 0 30px 0;
+}
+
+.footer-top .footer-logo {
+  float: left;
+}
+
+.footer-top .homepage {
+  font-family: arial, sans-serif;
+  font-size: 0.7em;
+  float: right
+}
+
+.footer-top a {
+  color: #6288A5;
+}
+
+.footer-links {
+  padding: 25px 0;
+}
+
+.fbox {
+  width: 165px;
+  font-family: arial, sans-serif;
+  font-size: 0.8em;
+  float: left;
+}
+
+.ftitle {
+  font-weight: bold;
+  color: #333333;
+  padding: 7px 0 12px 0;
+  font-stretch: condensed;
+}
+
+.flink {
+  padding: 6px 0;
+}
+
+.flast {
+  margin: 0 0 25px 35px;
+  padding: 0 0 25px 12px;
+  border-left: 1px solid #E2E2E2;
+  width: 190px;
+}
+
+.fimage {
+  height: 150px;
+}
+
+.flast .flink {
+  font-size: 0.8em;
+  padding: 5px 0;
+}
+
+.fseparator {
+  width: 100%;
+  margin: 5px 0;
+  border-bottom: 1px solid #E2E2E2;  
+}
+
+.footer-bottom {
+  clear: both;
+  font-family: arial, sans-serif;
+  color: #999999;  
+  font-size: 0.67em;
+  padding: 10px 0;
+  border-top: 1px solid #E2E2E2;
+}
+
+.footer-bottom a {
+  color: #999999;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
 }
